@@ -1,0 +1,15 @@
+{
+  "name": "MSGJarvis",
+ 	"author": "napisani",
+  "version": "0.0.1",
+  "port" : "5222",
+  "host" : "talk.google.com",
+  "acceptedUsers": ["<EMAIL1>", "<EMAIL2>", "<EMAIL3>"],
+  "username": "<USERNAME@GMAIL.COM>",
+  "password": "<PASSWORD>",
+  "msgToCommand": {
+      "stop" : "./someCommand.sh",
+      "test" : "someOtherCommand" 
+  }
+
+}
